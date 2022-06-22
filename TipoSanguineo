@@ -1,0 +1,26 @@
+package Prova;
+
+public enum TipoSanguineo {
+	
+	APOSITIVO("A-Positivo"),
+	ANEGATIVO("A-Negativo"),
+	BPOSITIVO("B-Positivo"),
+	BNEGATIVO("B-Negativo"),
+	ABPOSITIVO("AB-Positivo"),
+	ABNEGATIVO("AB-Negativo"),
+	OPOSITIVO("O-Positivo"),
+	ONEGATIVO("O-Negativo");
+	
+	private String tipo;
+	
+	
+	TipoSanguineo(String tipo){
+		this.tipo=tipo;
+	}
+
+public String getname() {
+	return this.tipo;
+}}
+
+
+
