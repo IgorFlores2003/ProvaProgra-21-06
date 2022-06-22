@@ -1,0 +1,57 @@
+package Prova;
+import Prova.DoadorController;
+import Data.*;
+import java.util.Scanner;
+public class main {
+	
+	public static void main(String[]args) {
+		
+		
+		
+		try {
+		DoadorController Doado=new DoadorController();
+		int aux=0;
+	Scanner x=new Scanner(System.in);
+		
+		do {
+			System.out.println("1-Cadastrar Doação");
+			System.out.println("2-Cadastrar Doador");
+			System.out.println("3-Ver Estoque");
+			System.out.println("0-Sair");
+			
+			int choose=x.nextInt();
+			if(choose==1) {
+	
+			}
+		Doado.cadastrarDoacao(null, null);
+		if(choose==2) {
+		
+		Doado.cadastrarDoador(null, null);
+		if(choose==3) {
+	
+			Data.Database.getSituacaoEstoque(null);
+		}
+		}
+		if(choose==0) {
+			aux++;
+		}
+	}while(aux==0);
+		
+	}catch(TipoSanguineoNotFoundException e){
+		
+		System.out.println("TipoSanguineo indevido");
+	}
+
+	}
+	}
+		
+	
+		
+	
+	
+
+
+
+	
+		
+	
