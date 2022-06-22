@@ -1,0 +1,22 @@
+package Prova;
+import Prova.TipoSanguineo;
+public class Doador {
+	
+	
+	private long CPF;
+	private TipoSanguineo TipoSanguineo;
+	public long getCPF() {
+		return CPF;
+	}
+	public void setCPF(long cPF) {
+		CPF = cPF;
+	}
+	public Prova.TipoSanguineo getTipoSanguineo() {
+		return TipoSanguineo;
+	}
+	public void setTipoSanguineo(Prova.TipoSanguineo tipoSanguineo) {
+		TipoSanguineo = tipoSanguineo;
+	}
+	
+
+}
