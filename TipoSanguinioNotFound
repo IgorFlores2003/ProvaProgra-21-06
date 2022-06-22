@@ -1,0 +1,12 @@
+package Data;
+
+public abstract class TipoSanguineoNotFoundException extends RuntimeException {
+
+	public TipoSanguineoNotFoundException(String message) {
+        super(message);
+    }
+
+    public TipoSanguineoNotFoundException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
