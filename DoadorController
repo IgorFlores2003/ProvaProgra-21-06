@@ -1,0 +1,22 @@
+package Prova;
+ import Prova.*;
+ 
+public class DoadorController {
+	
+	public static void cadastrarDoador(Long CPF, String TipoSanguineo) {
+	Doador doador=new Doador();
+	
+	doador.setCPF(CPF);
+	doador.setTipoSanguineo(TipoSanguineo);
+		
+	
+	}
+
+public static void cadastrarDoacao(String TipoSanguineo, Long quantidade) {
+	
+	
+	Doador doador=new Doador();
+	doador.getTipoSanguineo();
+	
+}
+}
